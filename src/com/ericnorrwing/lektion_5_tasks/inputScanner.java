@@ -11,4 +11,10 @@ public class inputScanner {
         return scanner.nextLine();
 
     }
+
+    public static int setValue(){
+        System.out.println("Please write an arbitrary number");
+        return scanner.nextInt();
+
+    }
 }
