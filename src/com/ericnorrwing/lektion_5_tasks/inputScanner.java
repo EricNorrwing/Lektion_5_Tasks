@@ -17,4 +17,10 @@ public class inputScanner {
         return scanner.nextInt();
 
     }
+
+    public static String setString(){
+        System.out.println("Please specify a String(): ");
+        return scanner.nextLine();
+
+    }
 }
