@@ -4,7 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         //Task #1
+        /*
         System.out.println("Player #1: " + inputScanner.setName());
+        */
 
         //Task #2
 
@@ -56,6 +58,7 @@ public class Main {
         }while(isPlaying);
         */
 
-        
+        inputScanner.setValue();
+        System.out.println("We made it!");
     }
 }
